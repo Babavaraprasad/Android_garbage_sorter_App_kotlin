@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5b5b5b"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    app_name
+    <!--TextView for the heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_static_size"
+        android:text="@string/text_name"
+        android:textColor="@color/black"
+        />
+
+    <!-- Text field to enter item -->
+    <EditText
+        android:id="@+id/Enter_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="@dimen/text_size"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFFFF"
+        android:textColor="#FF000000"
+        />
+
+    <!-- Where button -->
+    <Button
+        android:id="@+id/where_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size"
+        android:layout_gravity="left"
+        android:background="#39f208"
+        android:text="@string/button_name"
+        android:textSize="15sp" />
+
+    <!--Add a new item button-->
+    <Button
+        android:id="@+id/add_new_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size"
+        android:layout_gravity="left"
+        android:background="#39f208"
+        android:text="@string/btn_add_new"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
